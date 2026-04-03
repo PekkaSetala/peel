@@ -1,6 +1,6 @@
 # 🧅 Peel
 
-A structured problem-solving skill for LLMs. Peel reads the problem, picks the right framework, and works through it — stripping assumptions, tracing constraints, or following a causal chain until the real issue is exposed.
+A structured problem-solving skill for LLMs. Like peeling an onion, it removes layers — assumptions, symptoms, proximate causes — until the real problem is exposed. It reads the problem, picks the right framework, and works through it.
 
 Three modes. One concrete next step. Every time.
 
