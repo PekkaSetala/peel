@@ -224,18 +224,11 @@ shock, call them before launch — not after.
 
 ---
 
-## Design notes
-
-The full rationale behind every design decision — why structured trace over prose, why severity calibration, why the mode shift syntax — is in [`DECISIONS.md`](./DECISIONS.md).
-
----
-
 ## Files
 
 ```
 peel/
 ├── SKILL.md        # The skill itself — install this
-├── DECISIONS.md    # Design decisions and development log
 └── README.md       # This file
 ```
 
