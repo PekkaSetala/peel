@@ -31,20 +31,26 @@ Not a consultant's deck. Not a brainstorm list. A diagnosis.
 
 ### Claude.ai (Projects)
 
-Add `SKILL.md` to your Claude Project's context. Peel will activate automatically on diagnostic problems, or on demand with `/peel`.
+1. Open your Project → **Settings** → **Knowledge**
+2. Upload `SKILL.md`
+
+Peel will activate automatically on diagnostic problems, or on demand with `/peel`.
 
 ### Claude Code
 
 ```bash
 mkdir -p ~/.claude/skills/peel
-cp SKILL.md ~/.claude/skills/peel/SKILL.md
+curl -o ~/.claude/skills/peel/SKILL.md https://raw.githubusercontent.com/PekkaSetala/peel/main/SKILL.md
 ```
 
-### Cursor / Windsurf / Copilot Chat
+### Cursor
+
+Paste the contents of `SKILL.md` into `.cursor/rules/peel.md` (current) or `.cursorrules` (legacy).
+
+### Windsurf / Copilot Chat
 
 Paste the contents of `SKILL.md` into your workspace rules file:
 
-- **Cursor**: `.cursor/rules` or `.cursorrules`
 - **Windsurf**: `.windsurfrules`
 - **GitHub Copilot**: `.github/copilot-instructions.md`
 
